@@ -7,9 +7,13 @@ gem 'rails', '4.2.0'
 gem 'mysql2', '~> 0.3.18'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
-
+# Use bootstrap
 gem 'bootstrap-sass', '~> 3.2.0.0'
 gem 'sassc-rails', '>= 2.1.0'
+# Use hashing functions from this lib
+gem 'bcrypt', '3.1.7'
+# User authentication
+gem 'cancancan'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
